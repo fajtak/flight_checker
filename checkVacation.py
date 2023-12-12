@@ -20,7 +20,10 @@ feed_list = ["https://www.pelikan.cz/gf3/pelijee-cz/rss/rssfeed",
              "https://honzovyletenky.cz/feed/",
              "https://www.svet-letenek.cz/rss",
              "https://www.levneletenky.org/rss.xml",
-             "https://zaletsi.cz/feed/"]
+             "https://zaletsi.cz/feed/",
+             "https://www.levneletenkyzprahy.cz/rss0k",
+             "https://multistop.cz/destinace/evropa/feed/",
+             "https://jaknaletenky.cz/feed"]
 
 def read_resources() -> None:
 	try:
