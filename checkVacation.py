@@ -111,6 +111,7 @@ if __name__ == "__main__":
 		print("You have to enter search configuration!")
 		exit()
 	configs: dict[str,list[str]] = read_configs(sys.argv[1])
+	print(datetime.now())
 	for config_name, config in configs.items():
 		print(config_name)
 		found_offers = search_offers(config_name, config)
